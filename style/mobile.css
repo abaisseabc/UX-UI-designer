@@ -1,0 +1,127 @@
+@media screen and (min-height: 320px) and (max-width: 1023px) {
+    .web {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .container {
+        width: 320px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .home {
+        text-align: right;
+        height: 836px;
+        background: #fff;
+    }
+    .home-name {
+        padding-top: 65px;
+        width: 124px;
+        font-family: 'Gilroy-Bold';
+        font-size: 47px;
+        line-height: 58px;
+
+        color: #000000;
+    }
+    .home-ux-ui {
+        position: absolute;
+        padding-top: 23px;
+    }
+    .home-photo {
+        padding-top: 66px;
+        width: 316px;
+    }
+    .home-photo img {
+        width: 317px;
+        height: 478px;
+    }
+    .about {
+        text-align: right;
+        background: #F6F6F6;
+    }
+    .about-heading, .skills-heading, .portfolio-heading, .contacts-heading {
+        padding-top: 81px;
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        text-align: center;
+        color: #000000;
+    }
+    .about-text {
+        padding-top: 29px;
+        padding-bottom: 20px;
+        width: 300px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+    }
+    .skills {
+        height: 1600px;
+    }
+    .skills-text {
+        padding-top: 50px;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+    }
+    .skills-icon {
+        padding-top: 70px;
+        width: 166.46px;
+        margin: 0 auto;
+    }
+    .skills-icon-text {
+        padding-top: 24px;
+        width: 70px;
+        margin: 0 auto;
+        font-family: 'Gilroy-Bold';
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #828282;
+    }
+    .skills-icon-starts {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    .portfolio {
+        height: 1118px;
+        background: #F6F6F6;
+    }
+    .portfolio-web {
+        padding-top: 65px;
+    }
+    .portfolio-img {
+        width: 316px;
+        height: 171px;
+        margin: 0 auto;
+    }
+    .portfolio-img img {
+        width: 316px;
+        height: 171px;
+    }
+    .portfolio-link {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #000000;
+    }
+    .contacts-text {
+        padding-top: 27px;
+        font-size: 18px;
+        line-height: 22px;
+        color: #090909;
+        text-align: center;
+    }
+    .contacts-btn button {
+        margin-top: 40px;
+        width: 316px;
+        margin-bottom: 48px;
+    }
+    .contacts-messenger {
+        margin: 0 15px;
+    }
+}

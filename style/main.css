@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'Gilroy-Medium'; 
+    src: url("../fonts/gilroy-medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold'; 
+    src: url("../fonts/gilroy-bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bold; 
+}
+
+body, html {
+    font-family: 'Gilroy-Medium';
+    background: #FFFFFF;
+}
+
+.container {
+    width: 945px;
+    position: relative;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 811px) {
+    .web {
+        display: block;
+    }
+    .container {
+        width: 768px;
+    }
+    .mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 811px) {
+    .web {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+}
+
+/*====================Home====================*/
+
+.home {
+    display: block;
+}
+
+.home-nav {
+    padding-top: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-nav a {
+    color: #828282;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.home-nav a:hover, .home-nav a:focus{
+    font-family: 'Gilroy-Bold';
+    color: #070707;
+}
+
+@media screen and (min-width: 768px) and (max-width: 811px) {
+    .home-nav li {
+        margin: 0 20px;
+    }
+}
+
+.nav-line {
+    margin-top: 32px;
+    border: 1px solid #828282;
+}
+
+.home-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    width: 129px;
+    font-family: 'Gilroy-Bold';
+    padding-top: 40px;
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+}
+
+.ux-ui {
+    padding-top: 95px;
+    width: 155px;
+}
+
+.ru-eng {
+    padding-top: 105px;
+    transform: rotate(-90deg);
+    margin: 0 10px;
+}
+
+.home-photo {
+    padding-top: 30px;
+    padding-bottom: 104px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 811px) {
+    .ru-eng {
+        padding-top: 105px;
+        transform: rotate(-90deg);
+        margin: 0 20px;
+    }
+    .home-photo img {
+        width: 768px;
+    }
+}
+
+/*====================About====================*/
+
+.about {
+    display: block;
+    background: #F6F6F6;
+    height: 506px;
+}
+
+.about-heading {
+    font-family: 'Gilroy-Bold'; 
+    padding-top: 120px;
+    text-align: center;
+    font-size: 34px;
+    color: #070707;
+    line-height: 42px;
+    padding-bottom: 18px;
+}
+
+.about-text {
+    width: 485px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+/*====================Skills====================*/
+
+.skills {
+    display: block;
+    height: 610px;
+}
+
+.skills-heading {
+    font-family: 'Gilroy-Bold';
+    padding-top: 112px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+}
+
+.skills-text {
+    padding-top: 69px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.skills-icons {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-icon {
+    text-align: center;
+}
+
+.skills-icon-text {
+    padding-top: 50px;
+    text-align: center;
+    width: 166px;
+}
+
+.skills-stars {
+    padding-top: 30px;
+}
+
+/*====================Portfolio====================*/
+
+.portfolio {
+    height: 2225px;
+    background: #F6F6F6;
+}
+
+.portfolio-heading {
+    padding-top: 112px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.portfolio-web {
+    padding-top: 58px;
+}
+
+.portfolio-link {
+    padding-top: 44px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    font-size: 18px;
+}
+
+.portfolio-link a {
+    color: #070707;
+}
+
+@media screen and (min-width: 768px) and (max-width: 811px) {
+    .portfolio {
+        height: 1900px;
+    }
+    .portfolio-web img {
+        width: 768px;
+    }
+}
+
+.contacts {
+    height: 622px;
+    background: #FFFFFF;
+}
+
+.contacts-heading {
+    padding-top: 114px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.contacts-text {
+    padding-top: 20px;
+    width: 275.14px;
+    height: 44.06px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.contacts-btn {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.contacts-btn button {
+    width: 180.5px;
+    height: 42px;
+    margin: 0 auto;
+    background: #070707;
+    border-radius: 20px;
+    border: #070707;
+}
+
+.contacts-btn button a {
+    color: #FFFFFF;
+}
+
+.contacts-messengers {
+    padding-top: 85px;
+    width: 343px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contacts-messenger {
+    margin: 0 60px;
+}
+
+.contacts-explanation {
+    padding-top: 45px;
+    text-align: center;
+    width: 243px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+@media screen and (min-width: 768px) and (max-width: 811px) {
+    .contacts {
+        height: 500px;
+    }
+}
+
